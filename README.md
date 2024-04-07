@@ -1,1 +1,1 @@
-Para iniciar o projeto basta jogar o comando "npm run dev" ;)
+Para iniciar o projeto basta usar o comando "npm run dev" ;)
