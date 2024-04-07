@@ -1,0 +1,31 @@
+POST  http://localhost:3333/funcionarios
+Content-Type: application/json
+
+{
+    "nome": "Pedro",
+    "email": "pedro@hotmail.com",
+    "data_nasc": "1990-05-15",
+    "cpf": "12345678900"
+}
+
+###
+
+GET http://localhost:3333/funcionarios
+
+###
+
+PUT http://localhost:3333/funcionarios/c419de0a-c17d-46da-87aa-05f1fc52c65a
+Content-Type: application/json
+
+{
+    "nome": "Pedro",
+    "email": "pedro@hotmail.com",
+    "data_nasc": "2004-05-25",
+    "cpf": "12345678900"
+}
+
+###
+
+DELETE  http://localhost:3333/funcionarios/c419de0a-c17d-46da-87aa-05f1fc52c65a
+
+###

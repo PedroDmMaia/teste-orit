@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fastify": "^4.26.2",
+    "postgres": "^3.4.4"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "name": "teste-tecnico",
+  "version": "1.0.0",
+  "main": "create-tables.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}
